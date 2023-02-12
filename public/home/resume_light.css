@@ -1,0 +1,70 @@
+body {
+    /* background-color: #121212; */
+    /* color: white; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.darkmode {
+    display: block;
+    position:fixed;
+    right: 0;
+    top: 0;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.resume {
+    margin-top: 50px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-top: 5px solid rgb(15, 15, 15);
+    border-bottom: 5px solid rgb(22, 22, 22);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.name {
+    font-size: 3rem;
+}
+
+.title {
+    margin-left: 10px;
+}
+
+.projects {
+    margin-top: 20px;
+}
+
+.date {
+    font-size: 0.8rem;
+    border-right: 3px solid rgb(207, 207, 207);
+    width: 107px;
+    text-align: end;
+    padding-right: 20px;
+}
+
+.info {
+    padding-left: 20px;
+    width: 750px;
+    
+
+}
+
+.info span {
+    font-size: 0.9rem;
+    padding-left: 20px;
+}

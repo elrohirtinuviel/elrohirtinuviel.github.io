@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="home/resume_dark.css">
+	<link rel="stylesheet" href="home/resume_light.css">
+</head>
+
+<body id="body">
+    <div class="resume flex-col">
+        <div class="header" id="header">
+            <div class="col1 flex-col">
+                <span class="name">Mehmet Ali</span>
+                <span class="name">CETINER</span>
+                <span class="title">Software Developer</span>
+            </div>
+            <div class="col2 flex-col">
+                <text>cetinermehmetali@gmail.com</text>
+                <text>Isparta / TURKEY</text>
+                <div class="social flex-row">
+                    <div class="linkedin flex-row">
+                        <a href="https://www.linkedin.com/in/mehmet-ali-cetiner" target="_blank"><img class="linkedin-icon" src="../icons/logo-linkedin.svg"
+                                alt="a"></a>
+                        <a href="https://www.linkedin.com/in/mehmet-ali-cetiner" target="_blank"></a>
+                    </div>
+
+                    <div class="github flex-row">
+                        <a href="https://github.com/ethmore" target="_blank"><img class="github-icon" src="../icons/logo-github.svg" alt="a"></a>
+                        <a href="https://github.com/ethmore" target="_blank"></a>
+                    </div>
+                </div>
+                <div class="darkmode" id="mode">
+                    <span>Dark Mode </span>
+                    <div id="change-mode-btn">
+                        <div id="btn-circ"></div>
+                    </div>
+            
+                </div>
+            </div>
+        </div>
+        <div class="projects">
+            <h2>PROJECTS</h2>
+            <div class="wrapper">
+                <div class="ecomm flex-row">
+                    <div class="date flex-col">
+                        <span>Jul. 2022</span>
+                        <span>Sep. 2022</span>
+                    </div>
+                    <div class="info flex-col">
+                        <h3><a href="https://github.com/users/ethmore/projects/4" target="_blank"><img class="github-icon"
+                                    src="../icons/logo-github.svg" alt="a"></a> E-Comm</h3>
+                        <span>
+                            E-Comm is a microservice project that is written in GO.
+                            This project contains 7 different microservices.
+                            <br>
+                            <br>
+
+                            <b> These microservices are:</b>
+                            <br>
+                            <ul>
+                                <li><b>Database and Authentication Service:</b> Fulfilling DB requests and authenticating users or
+                                    sellers.</li>
+                                <li><b>Bff & Frontend Service:</b> Loading all frontend elements and making requests to other
+                                    services.</li>
+                                <li><b>Catalog Service:</b> Loading all products in home the page and individual products in their own
+                                    pages.</li>
+                                <li><b>Search Service:</b> Adding products to elasticsearch and retrieving products from it via
+                                    search
+                                    query.</li>
+                                <li> <b>Cart Service:</b> Making requests to DB service to add products, get products from the cart
+                                    table etc.</li>
+                                <li><b>Payment Service:</b> Responsible for starting a payment process using "iyzico api".</li>
+                                <li><b>Order Service:</b> Creating order objects that contains purchased products, total price,
+                                    address, purchase time info and passing it to the database service.</li>
+                            </ul>                          
+                        </span>
+                    </div>
+                </div>
+                <br>
+
+                <div class="menuapp flex-row">
+                    <div class="date flex-col">
+                        <span>May. 2022</span>
+                        <span>Jun. 2022</span>
+                    </div>
+                    <div class="info flex-col">
+                        <h3><a href="https://github.com/ethmore/menu-app" target="_blank"><img class="github-icon"
+                                    src="../icons/logo-github.svg" alt="a"></a> Menu App For Restaurants</h3>
+                        <span>Menu App is a qr menu and admin panel project that is written in Javascript(nodejs). </span>
+                    </div>
+                </div>
+                <br>
+
+                <div class="advenbook flex-row">
+                    <div class="date flex-col">
+                        <span>Apr. 2022</span>
+                        <span>May. 2022</span>
+                    </div>
+                    <div class="info flex-col">
+                        <h3>AdvenBook</h3>
+                        <span>
+                            AdvenBook is a web game project that is inspired from the "Choose Your Own Adventure" gamebook
+                            series.
+                            Written with Python/django for a customer.
+                        </span>
+                    </div>
+                </div>
+                <br>
+
+                <div class="egladorbot flex-row">
+                    <div class="date flex-col">
+                        <span>Mar. 2022</span>
+                        <span>Apr. 2022</span>
+                    </div>
+                    <div class="info flex-col">
+                        <h3><a href="https://github.com/ethmore/egladorbot" target="_blank"><img class="github-icon"
+                                    src="../icons/logo-github.svg" alt="a"></a> EgladorBot</h3>
+                        <span>
+                            EgladorBot is a player bot for discord. Written in Python. It can play music via search or
+                            link. Player features are; playing from playlist, queue music, skip, pause, resume. And can
+                            be used as an admin helper bot thanks to the auto moderation features; Auto warn, auto kick
+                            and auto ban functions that checks forbidden word usage.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="experience">
+            <h2>EXPERIENCE</h2>
+            <div class="wrapper">
+                <div class="itech flex-row">
+                    <div class="date flex-col">
+                        <span>Apr. 2021</span>
+                        <span>Jan. 2022</span>
+                    </div>
+                    <div class="info flex-col">
+                        <h3>Embedded Software Developer and Feed Pusher Robot Project Lead</h3>
+                        <h3>I-TECH Robotics</h3>
+                    </div>
+                </div>
+                <br>
+
+                <div class="itech flex-row">
+                    <div class="date flex-col">
+                        <span>Jan. 2021</span>
+                        <span>Apr. 2021</span>
+                    </div>
+                    <div class="info flex-col">
+                        <h3>Embedded Software Developer - I-TECH Robotics</h3>
+                    </div>
+                </div>
+                <br>
+
+                <div class="itech flex-row">
+                    <div class="date flex-col">
+                        <span>Oct. 2020</span>
+                        <span>Jan. 2021</span>
+                    </div>
+                    <div class="info flex-col">
+                        <h3>INTERN - I-TECH Robotics</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="education">
+            <h2>EDUCATION</h2>
+            <div class="wrapper">
+                <div class="sdu flex-row">
+                    <div class="date flex-col">
+                        <span>2016</span>
+                        <span>2021</span>
+                    </div>
+                    <div class="info flex-col">
+                        <h3>Bachelor in Mechatronics Engineering</h3>
+                        <text>Suleyman Demirel University</text>
+                        <br>
+                        <span>Studied software development on robotics</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="education">
+            <h2>LANGUAGES</h2>
+            <div class="wrapper">
+                <div class="sdu flex-row">
+                    <div class="date flex-col">
+                    </div>
+                    <div class="info flex-col">
+                        <h3>Turkish - Native</h3>
+                        <h3>English - C1</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="home/resume.js"></script>
+</body>
+
+</html>
