@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
-    <div id="unity-container" style="height:100%; width:100%">
-      <canvas id="unity-canvas" width=auto height=auto"></canvas>
+    <div id="unity-container" style="width:100%; height:100%">
+      <canvas id="unity-canvas" width=auto height=auto></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -52,9 +52,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/ResumeGameWebGL.loader.js";
       var config = {
-        dataUrl: buildUrl + "/ResumeGameWebGL.data",
-        frameworkUrl: buildUrl + "/ResumeGameWebGL.framework.js",
-        codeUrl: buildUrl + "/ResumeGameWebGL.wasm",
+        dataUrl: buildUrl + "/ResumeGameWebGL.data.gz",
+        frameworkUrl: buildUrl + "/ResumeGameWebGL.framework.js.gz",
+        codeUrl: buildUrl + "/ResumeGameWebGL.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "My Resume",
