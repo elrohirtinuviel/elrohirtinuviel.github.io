@@ -6,4 +6,4 @@ It's still work in progress and being updated when I have the chance.
 
 To reach it just go to the link below:
 
-# [elrohirtinuviel.github.io]([elrohirtinuviel.github.io](https://elrohirtinuviel.github.io/))
+# [elrohirtinuviel.github.io](https://elrohirtinuviel.github.io/)
