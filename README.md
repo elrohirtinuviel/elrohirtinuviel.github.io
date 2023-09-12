@@ -1,6 +1,6 @@
 # THIS IS AN INTERACTIVE RESUME
 
-I've created a 3D world using WebGL to make resumes less boring. It's an FPS type of game but nothing fancy. It's basically a muesum of some sort.
+I've created a 3D world using WebGL to make resumes less boring. It's an FPS type of game but nothing fancy. It's basically a museum of some sort.
 
 It's still work in progress and being updated when I have the chance.
 
